@@ -42,6 +42,12 @@
     <e-columns>
       <e-column field="studentId" headerText="ID" width="100"></e-column>
       <e-column field="studentName" headerText="Name" width="150"></e-column>
+      <e-column headerText="Image" width="120" textAlign="Center">
+        <ng-template #template let-data>
+          <img [src]="data.imagePath" alt="Student Image" width="60" height="60" style="border-radius: 50%;" *ngIf="data.imagePath">
+        </ng-template>
+      </e-column>
+      
       <e-column field="admissionNo" headerText="Admission No" width="150"></e-column>
       <e-column field="enrollmentNo" headerText="Enrollment No" width="150"></e-column>
       <e-column field="studentDOB" headerText="Date of Birth" width="150"></e-column>

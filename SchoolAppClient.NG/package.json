@@ -20,18 +20,14 @@
     "@angular/platform-browser": "^17.2.0",
     "@angular/platform-browser-dynamic": "^17.2.0",
     "@angular/router": "^17.2.0",
-
-
     "@fortawesome/angular-fontawesome": "*",
     "@fortawesome/fontawesome-svg-core": "*",
     "@fortawesome/free-solid-svg-icons": "*",
-
-
     "@syncfusion/ej2-angular-buttons": "*",
     "@syncfusion/ej2-angular-charts": "*",
     "@syncfusion/ej2-angular-grids": "*",
-    "@syncfusion/ej2-angular-inputs": "*",
-    "@syncfusion/ej2-angular-notifications": "*",
+    "@syncfusion/ej2-angular-inputs": "^29.1.38",
+    "@syncfusion/ej2-angular-notifications": "^29.1.33",
     "@syncfusion/ej2-angular-pdfviewer": "*",
     "@syncfusion/ej2-angular-popups": "*",
     "@syncfusion/ej2-angular-splitbuttons": "*",

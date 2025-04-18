@@ -53,10 +53,9 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-$custom-body-color: #ebebeb;
 
 body {
-  background-color: $custom-body-color;
+  background-color: #f0f0f0; /* Replace with your desired color */
 }
 
 html, body {
